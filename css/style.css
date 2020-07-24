@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  background-size: cover;
+  /* height: 1045px; */
+  background-image: url("/img/Rectangle\ 1.jpg");
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.contact {
+  display: inline-block;
+  width: 150px;
+  height: 1045px;
+}
+
+.teatr {
+  margin: 0 auto;
+}
+
+.nav {
+  padding-top: 51px;
+  display: flex;
+}
+
+.nav__link {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-style: normal;
+  padding-right: 63px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffff;
+  text-decoration: none;
+}
+
+.nav__link:last-child {
+  padding-left: 167px;
+  padding-right: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+}
+
+.nav__link:last-child:after {
+  content: "";
+  display: block;
+  width: 119px;
+  height: 2px;
+  background: #d1a954;
+  margin: 5px auto;
+}
+
+.contact {
+  background: rgba(51, 51, 51, 0.75);
+}
+.contact__info {
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.contact__info::after {
+  /* content: "";
+    display: block;
+    width: 3px;
+    height: 80px;
+    background: #C4C4C4;
+    margin: 5px auto; */
+}
+
+.center {
+  display: flex;
+  width: 540px;
+  height: 296px;
+}
+.center__info {
+}
+.center__info--title {
+  margin-top: 308px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 87px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.center__info--text {
+  width: 537px;
+  margin-top: 50px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.center__btn {
+  margin-top: 49px;
+  padding: 0;
+  width: 160px;
+  height: 50px;
+  left: 405px;
+  top: 630px;
+  background: #d1a954;
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  border: 0;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+.center__img {
+    margin-left: 125px;
+    margin-top: 191px;
+}
+
+.two__img {
+    transform: translate(-5%, -104%);
+}
